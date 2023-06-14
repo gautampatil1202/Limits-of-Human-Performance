@@ -9,6 +9,12 @@ Human performance, like many other traits, follows a [Bell Curve distribution](h
 ![](output/pic1.jpg)
 
 
+The data utilized in the analysis was obtained from the [topend sports site](https://www.topendsports.com/sport/athletics/record-100m.htm), which provides a comprehensive list of world records in the men's 100m event. The dataset consists of fewer than two dozen records, indicating the infrequent occurrence of significant record-breaking events in this category. To facilitate data manipulation and analysis, the records were transformed into a dictionary format and subsequently converted into a pandas DataFrame.
+
+To enhance the analysis, an additional column was incorporated into the DataFrame to denote the number of years elapsed since the establishment of the first recorded record. This allows for an examination of the relationship between the recorded times (measured in seconds) and the passage of time since the initial record was set.
+
+
+
 The SciPy Library:
 ======
 
